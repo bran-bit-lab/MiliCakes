@@ -1,0 +1,6 @@
+{
+  "appId": "com.milicakes.app",
+  "appName": "MiliCakes",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}

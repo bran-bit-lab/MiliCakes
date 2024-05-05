@@ -1,0 +1,21 @@
+{
+  "name": "MiliCakes",
+  "version": "1.0.0",
+  "description": "Pagina Web de MiliCakes",
+  "main": "index.js",
+  "author": "bran-bit-lab",
+  "license": "MIT",
+  "devDependencies": {
+    "@capacitor/cli": "4.8.2",
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "serve": "http-server www",
+    "add_android": "cap add android",
+    "sync": "cap sync"
+  },
+  "dependencies": {
+    "@capacitor/android": "4.8.2",
+    "@capacitor/core": "4.8.2"
+  }
+}
