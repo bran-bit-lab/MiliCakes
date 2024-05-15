@@ -28,6 +28,11 @@ body {
     height: 150px;
 }
 
+.logo-container img {
+    width: 290px;
+    height: 170px;
+}
+
 .logo-container > div {
     height: inherit;
 }
