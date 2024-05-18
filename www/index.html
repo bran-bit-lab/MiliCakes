@@ -4,32 +4,31 @@
     <base href="/" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"/>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <title>MiliCakes</title>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <!--
-        Contenedor del logo
-    -->
+  <!-- contenedor principal -->
+  <main>
+    <!-- Contenedor del logo -->
     <div class="container-fluid logo-container">
         <div class="d-flex flex-column justify-content-center align-items-center">
             <img src="assets/imagenes/logo.png" alt="logo" />
         </div>
     </div>
       
-    <!--
-        Carrusel de imagenes
-    -->  
+    <!-- Carrusel de imagenes -->  
     <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="assets/imagenes/img1.png" width="412" height="412" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item">
+          <!-- <div class="carousel-item">
             <img src="assets/imagenes/img2.png" width="412" height="412" class="d-block w-100" alt="...">
-          </div>
+          </div>-->
           <div class="carousel-item">
             <img src="assets/imagenes/img3.jpg" width="412" height="412" class="d-block w-100" alt="...">
           </div>
@@ -53,12 +52,31 @@
         </button>
       
       </div>
-
+  
     <div class="container info-container">
         <p class="text-white mb-0"> 
             Realizamos todo tipo de tortas de cumpleaños, bodas
             graduaciones y para cualquier celebración.
         </p>
     </div>
+  </main>
+
+  <!-- menu inferior -->
+  <footer class="position-fixed bottom-0 container-fluid">
+    <div class="row">
+      <div class="col-6">
+        <p class="mb-0 text-center d-flex align-items-center justify-content-center">
+          <i class="fab fa-whatsapp fa-2x me-2"></i>
+          <span>+58 424-2132495</span>
+        </p>
+      </div>
+      <div class="col-6">
+        <p class="mb-0 text-center d-flex align-items-center justify-content-center">
+          <i class="fab fa-instagram fa-2x me-2"></i>
+          <span style="font-size: 14px;">MiliCakes_2021</span>
+        </p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

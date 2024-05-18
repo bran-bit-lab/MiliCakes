@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "dancing-script";
+    src: url(assets/fonts/Dancing_Script/DancingScript-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "satisfy";
+    src: url(assets/fonts/Satisfy/Satisfy-Regular.ttf);
+    font-weight: 400;
+}
+
+:root {
+    --background: rgb(252,204,255);
+    --gradient: linear-gradient(180deg, rgba(252,204,255,1) 15%, rgba(240,2,236,1) 100%); 
+}
+
+main {
+    background: rgb(252,204,255);
+    background: linear-gradient(180deg, rgba(252,204,255,1) 15%, rgba(240,2,236,1) 100%); 
+    min-height: 100vh;
+}
+.title{
+    font-family: "dancing-script";
+    font-size: 48px;
+}
+.logo-container {
+    height: 150px;
+}
+
+.logo-container img {
+    width: 290px;
+    height: 170px;
+}
+
+.logo-container > div {
+    height: inherit;
+}
+
+.info-container {
+    font-family: "satisfy";
+    text-align: center;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: rgba(204, 15, 188) !important;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+footer {
+    color: black;
+    background-color: var(--background);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+footer span {
+    font-size: 14px;
+}
