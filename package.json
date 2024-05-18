@@ -12,7 +12,8 @@
   "scripts": {
     "serve": "http-server www",
     "add_android": "cap add android",
-    "sync": "cap sync"
+    "sync": "cap sync",
+    "debug_android": "cap open android"
   },
   "dependencies": {
     "@capacitor/android": "4.8.2",
